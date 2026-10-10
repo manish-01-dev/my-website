@@ -1,0 +1,145 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alex Morgan | Businessman</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #10243a;
+            color: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #f0b429;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f0b429;
+        }
+
+        /* Home Section */
+        .hero {
+            min-height: 85vh;
+            background: linear-gradient(135deg, #10243a, #245b82);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #f0b429;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #f0b429;
+            color: #10243a;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: white;
+        }
+
+        /* General Sections */
+        section:not(.hero) {
+            padding: 65px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            color: #10243a;
+            margin-bottom: 30px;
+        }
+
+        /* About Section */
+        .about {
+            background-color: white;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 17px;
+            color: #555;
+        }
+
+        /* Services Section */
+        .services {
+            text-align: center;
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            background-color: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            width: 280px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .service-card h3 {
+            color: #245b82;
+            margin-bottom
